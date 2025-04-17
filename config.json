@@ -7,6 +7,7 @@
   "boot": "auto",
   "image": "sergheislobodeaniuc/hausauto_addon",
   "init":false,
+  "host_network":true,
   "arch": ["amd64"],
   "options": {
     "mqtt_ip": "default_value",
