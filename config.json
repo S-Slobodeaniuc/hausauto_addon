@@ -9,17 +9,17 @@
   "init":false,
   "arch": ["amd64"],
   "options": {
-    "broker_ip": "default_value",
-    "broker_port": 1883,
-    "mqtt_user": "none",
-    "mqtt_pass": "none"
+    "MQTT_IP": "default_value",
+    "MQTT_PORT": 1883,
+    "MQTT_USERNAME": "none",
+    "MQTT_PASSWORD": "none"
   },
 
   "schema": {
-    "broker_ip": "str",
-    "broker_port": "int",
-    "mqtt_username": "str",
-    "mqtt_password": "password",
+    "MQTT_IP": "str",
+    "MQTT_PORT": "int",
+    "MQTT_USERNAME": "str",
+    "MQTT_PASSWORD": "password",
     "devices": [
       {
         "name": "str",
