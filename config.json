@@ -28,13 +28,15 @@
         "id": "int(1,100)",
         "ip": "match(^\\d{1,3}(\\.\\d{1,3}){3}$)"
       }
-    ]
+    ],
+    "alarm":"password"
   },
 
   "environment": {
     "MQTT_IP": "none",
     "MQTT_PORT": "none",
     "MQTT_USERNAME": "none",
-    "MQTT_PASSWORD": "none"
+    "MQTT_PASSWORD": "none",
+    "MQTT_ALARM": "none"
   }
 }
