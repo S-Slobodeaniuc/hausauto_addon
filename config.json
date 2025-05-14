@@ -14,7 +14,8 @@
     "mqtt_port": 1883,
     "mqtt_username": "none",
     "mqtt_password": "none",
-    "devices" : []
+    "devices" : [],
+    "alarm":""
   },
 
   "schema": {
