@@ -31,5 +31,12 @@
       }
     ],
     "mqtt_alarm":"password"
+  },
+    "environment": {
+    "MQTT_IP": "none",
+    "MQTT_PORT": "none",
+    "MQTT_USERNAME": "none",
+    "MQTT_PASSWORD": "none",
+    "MQTT_ALARM": "none"
   }
 }
