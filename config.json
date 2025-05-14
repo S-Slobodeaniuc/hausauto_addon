@@ -1,6 +1,6 @@
 {
   "name": "HausAuto Add-On for HomeAssistant",
-  "version": "latest",
+  "version": "beta_1.0.0",
   "slug": "hausauto_addon_app",
   "description": "This is a C++ app running in Docker",
   "startup": "application",
