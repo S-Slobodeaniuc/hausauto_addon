@@ -1,6 +1,6 @@
 {
   "name": "HausAuto Add-On for HomeAssistant",
-  "version": "beta_1.0.1",
+  "version": "beta_1.0.2",
   "slug": "hausauto_addon_app",
   "description": "This is a C++ app running in Docker",
   "startup": "application",
@@ -10,10 +10,10 @@
   "host_network":true,
   "arch": ["amd64"],
   "options": {
-    "mqtt_ip": "default_value",
+    "mqtt_ip": "127.0.0.1",
     "mqtt_port": 1883,
-    "mqtt_username": "none",
-    "mqtt_password": "none",
+    "mqtt_username": "",
+    "mqtt_password": "",
     "mqtt_alarm":"",
     "devices" : []
   },
